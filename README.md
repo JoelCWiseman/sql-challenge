@@ -1,1 +1,9 @@
 # sql-challenge
+
+For this challenge the scenario is that I was hired as a new data engineer at Pewlett Hackard (a fictional company). My first major task is to do a research project about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files. For this project, I designed the tables to hold the data from the CSV files, imported the CSV files into a SQL database, and then answered questions about the data. In otherwords this project is designed for me to perform data modeling, data engineering, and data analysis, respectively.
+
+QuickDBD would error everytime I attempted to export to PostgreSQL, I was able to save the image of the DB as a .PNG file, and was also able to export the database design instructions as a .rtf file. You'll find both of those files in this respository.
+
+Additionally, you will find included in this respository two .sql files. 'Pewlett Hackard Employee Tables Final' contains the code to build the initial tables based on the .csv columns. 'Employee Data Analysis Final' contains the code to generate the specified tables for this challenge. Within that code, each is labeled to show exactly what the table will generate. Lastly the folder titled 'Resources' contains all of the raw .csv files that need to be loaded into the database in pgAdmin 4 after the initial tables are built and before the data analysis code is run so that the file 'Employee Data Analysis Final' can read the data and display the desired tables.
+
+In order to render the instructions for QuickDBD and the code for SQL to build the necessasry tables I relied on examples from class, w3schools SQL Tutorials (https://www.w3schools.com/sql/), and CodePal - Code Reviewer (https://codepal.ai/code-reviewer) to assist in troubleshooting errors
